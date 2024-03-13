@@ -1,0 +1,9 @@
+1. Install packages:
+	apt-get install libsdl-gfx1.2-dev libsdl-ttf2.0-dev libsdl1.2-dev
+
+
+2. Build:
+	g++ -o game15  -g *.cpp `sdl-config --cflags --libs` -lSDL_ttf -lSDL_gfx
+
+3. Execute:
+	./game15

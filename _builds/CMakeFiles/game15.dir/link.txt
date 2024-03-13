@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/game15.dir/main.cpp.o CMakeFiles/game15.dir/Game15.cpp.o CMakeFiles/game15.dir/Game15BoardView.cpp.o -o game15  /usr/lib/x86_64-linux-gnu/libSDL_ttf.so /usr/lib/x86_64-linux-gnu/libSDL_gfx.so /usr/lib/x86_64-linux-gnu/libSDLmain.a /usr/lib/x86_64-linux-gnu/libSDL.so -lpthread 

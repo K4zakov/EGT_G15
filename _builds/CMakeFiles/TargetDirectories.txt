@@ -1,0 +1,3 @@
+/home/jorio/prj/c++/Game15/_builds/CMakeFiles/rebuild_cache.dir
+/home/jorio/prj/c++/Game15/_builds/CMakeFiles/edit_cache.dir
+/home/jorio/prj/c++/Game15/_builds/CMakeFiles/game15.dir
