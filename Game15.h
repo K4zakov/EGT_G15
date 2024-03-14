@@ -20,7 +20,7 @@ class Game15
 	friend class Game15BoardView;
 
 private:
-	unsigned char _board[4][4];
+	unsigned char _board[6][6];
 	unsigned int _moves;
 
 public:
