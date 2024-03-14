@@ -24,7 +24,7 @@ Game15BoardView::Game15BoardView(Game15& _game) : game(_game)
 		state= Error;
 	}
 	state= Initialized;
-	screen= SDL_SetVideoMode( 320, 24, 8, SDL_HWSURFACE|SDL_ANYFORMAT);
+	screen= SDL_SetVideoMode( 320, 240, 8, SDL_HWSURFACE|SDL_ANYFORMAT);
 	if (!screen) {
 		printf("Could not initialize SDL screen: %s.\n", SDL_GetError());
 		state= Error;

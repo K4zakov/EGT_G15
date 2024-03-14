@@ -8,6 +8,12 @@
 // Create instance of simple "Game 15" board
 int main( int argc, char *argv[]) 
 {
+	std::cout << "argc = " << argc << std::endl;
+    std::cout << "Lets see what is in argv[]" << std::endl;
+
+    for (int i = 1; i < argc; i++) {
+        std::cout << "argv[" << i << "] = " << argv[i] << std::endl;
+    }
 
 	Game15 game= Game15();
 	Game15BoardView view= Game15BoardView(game);
